@@ -1,0 +1,16 @@
+<div id="leftRail"></div>
+<div id="rightRail"></div>
+<div class="content">
+    <div class="event" ng-repeat="event in events">
+        <h2 class="eventTitle">{{event.title}}</h2>
+        <h3 class="dateRange">{{event.dateStart}} - {{event.dateEnd}}</h3>
+        <h3 class="location">{{event.location}}</h3>
+        <div class="event_carousel">
+            <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-controls>
+                <li ng-repeat="image in event.images"><img alt="Loading..." ng-src="{{image}}"/></li>
+            </ul>
+        </div>
+        <p class="eventDescription">{{event.description}}</p>
+    </div>
+    <!-- Poultry Days and associated images are property of the Poutry Days Festival -->
+</div>

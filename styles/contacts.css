@@ -1,0 +1,56 @@
+.contacts h1, .contacts h2{
+    text-align: center;
+}
+
+.contacts h2 {
+    margin-bottom: 1em;
+}
+
+.contact span {
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.contact:not(:last-child) {
+    border-bottom: dotted 1px grey;
+    margin-bottom: 1em;
+}
+
+.contactInfo {
+    width: 45%;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+.contactInfo h3, .contactInfo h4{
+    margin-left: 15%;
+}
+
+.contactImage {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200px;
+}
+
+.contactImage img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200px;
+}
+
+.memberInfo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.memberInfo tr:first-child td{
+    font-weight: bold;
+}
+
+.memberInfo td {
+    width: 15%;
+    font-size: 2vw;
+}
