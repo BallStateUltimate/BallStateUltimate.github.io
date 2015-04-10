@@ -13,8 +13,6 @@ function GalleryController($http,$scope,$route, $location){
         caption: "Poultry Days 2014 Champs, Cock-Wringers"
     }];
     
-    $scope.leftHovering = false;
-    $scope.rightHovering = false;
     var currentIndex = 0;
     
     $scope.loadImage = function(index){

@@ -122,6 +122,10 @@ body {
     vertical-align: top;
 }
 
+#logo:active {
+    background-color: rgba(0,0,0, 0.25);
+}
+
 #navBar {
     width: 100%;
     box-sizing: border-box;
@@ -150,6 +154,14 @@ body {
     border: solid 2px #CB0825;
 }
 
+#navBar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#navBar ul li:active {
+    background-color: rgba(0,0,0, 0.25);
+}
+
 #navBar ul li a{
     font-size: 1.5vw;
     color: #CB0825;
@@ -163,10 +175,6 @@ body {
 
 #navBar .first {
     margin-left: 0px;
-}
-
-.ng-click-active {
-    background-color: rgba(0,0,0, 0.1);
 }
 
 #leftRail, #rightRail {
