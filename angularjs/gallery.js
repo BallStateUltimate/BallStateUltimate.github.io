@@ -1,6 +1,14 @@
 function GalleryController($http,$scope,$route, $location){
     $scope.photoGallery = [{
         title: "Evansville",
+        image: "images/tournaments/Conference16.jpg",
+        caption: ""
+    }, {
+        title: "Evansville",
+        image: "images/tournaments/Conference17.jpg",
+        caption: ""
+    }, {
+        title: "Evansville",
         image: "images/tournaments/Conference1.jpg",
         caption: ""
     }, {

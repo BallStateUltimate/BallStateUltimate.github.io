@@ -24,6 +24,7 @@ function TournamentsController($http,$scope,$route, $location) {
         location : "Evansville, IN",
         description : "Located in Evansville, IN, this was the most important tournament of the season. Last year, the team didn't make such a great appearance, but that all changed this year. This year, the team went 3-3 on the weekend, and even gave teams like Notre Dame a run for their money. The team showed a lot of ferocity over the weekend, and although we will miss those who will be leaving us after this semester, at least they can be proud of how this young team performed. ",
         images : [
+            "images/tournaments/Conference16.jpg",
             "images/tournaments/Conference1.jpg",
             "images/tournaments/Conference2.jpg",
             "images/tournaments/Conference3.jpg",
@@ -39,7 +40,8 @@ function TournamentsController($http,$scope,$route, $location) {
             "images/tournaments/Conference12_2.jpg",
             "images/tournaments/Conference13.jpg",
             "images/tournaments/Conference14.jpg",
-            "images/tournaments/Conference15.jpg"
+            "images/tournaments/Conference15.jpg",
+            "images/tournaments/Conference17.jpg"
         ]
     }, {
         title: "Poultry Days",
