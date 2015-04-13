@@ -5,10 +5,6 @@ function GalleryController($http,$scope,$route, $location){
         caption: ""
     }, {
         title: "Evansville",
-        image: "images/tournaments/Conference17.jpg",
-        caption: ""
-    }, {
-        title: "Evansville",
         image: "images/tournaments/Conference1.jpg",
         caption: ""
     }, {

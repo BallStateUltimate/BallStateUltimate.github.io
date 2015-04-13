@@ -40,8 +40,7 @@ function TournamentsController($http,$scope,$route, $location) {
             "images/tournaments/Conference12_2.jpg",
             "images/tournaments/Conference13.jpg",
             "images/tournaments/Conference14.jpg",
-            "images/tournaments/Conference15.jpg",
-            "images/tournaments/Conference17.jpg"
+            "images/tournaments/Conference15.jpg"
         ]
     }, {
         title: "Poultry Days",
