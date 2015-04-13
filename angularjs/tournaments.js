@@ -22,9 +22,24 @@ function TournamentsController($http,$scope,$route, $location) {
         dateStart: "Apr 11",
         dateEnd : "Apr 12",
         location : "Evansville, IN",
-        description : "Located in Evansville, IN, this is the tournament worth all of the marbles. All of teams in the region will be competing at this tournament to see who continues on to the regional tournament. This will be an exhausting 2-day tournament, but it will be a chance to prove the tema's worth. Not to mention we will be staying at Ryan Meeks's house, and his mom makes aweomse spaghetti.",
+        description : "Located in Evansville, IN, this was the most important tournament of the season. Last year, the team didn't make such a great appearance, but that all changed this year. This year, the team went 3-3 on the weekend, and even gave teams like Notre Dame a run for their money. The team showed a lot of ferocity over the weekend, and although we will miss those who will be leaving us after this semester, at least they can be proud of how this young team performed. ",
         images : [
-            "images/temp.png"
+            "images/tournaments/Conference1.jpg",
+            "images/tournaments/Conference2.jpg",
+            "images/tournaments/Conference3.jpg",
+            "images/tournaments/Conference4.jpg",
+            "images/tournaments/Conference5.jpg",
+            "images/tournaments/Conference6.jpg",
+            "images/tournaments/Conference7.jpg",
+            "images/tournaments/Conference8.jpg",
+            "images/tournaments/Conference9.jpg",
+            "images/tournaments/Conference10.jpg",
+            "images/tournaments/Conference11.jpg",
+            "images/tournaments/Conference12.jpg",
+            "images/tournaments/Conference12_2.jpg",
+            "images/tournaments/Conference13.jpg",
+            "images/tournaments/Conference14.jpg",
+            "images/tournaments/Conference15.jpg"
         ]
     }, {
         title: "Poultry Days",

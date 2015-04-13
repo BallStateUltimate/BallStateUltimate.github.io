@@ -16,8 +16,8 @@
     
 <div class="content">
     <center>
-        <video height="640px" width="480px" controls>
-            <source src="files/Omaha.mp4" type="video/mp4"/>
+        <video height="480px" width="720px" controls>
+            <source src="files/Conference.mp4" type="video/mp4"/>
         </video>
     </center>
     <br/>
@@ -26,5 +26,11 @@
         <img src="{{item.image}}" alt="Loading..." title="{{item.title}}" ng-click="loadImage(photoGallery.indexOf(item))"/>
         <caption class="description">{{item.caption}}</caption>
     </div>
-
+    
+    <br/>
+    <center>
+        <video height="640px" width="480px" controls>
+            <source src="files/Omaha.mp4" type="video/mp4"/>
+        </video>
+    </center>
 </div>
