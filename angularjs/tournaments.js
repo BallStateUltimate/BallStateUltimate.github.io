@@ -31,7 +31,7 @@ function TournamentsController($http,$scope,$route, $location) {
         dateStart: "Apr 11",
         dateEnd : "Apr 12",
         location : "Evansville, IN",
-        description : "Located in Evansville, IN, this was the most important tournament of the season. Last year, the team didn't make such a great appearance, but that all changed this year. This year, the team went 3-3 on the weekend, and even gave teams like Notre Dame a run for their money. The team showed a lot of ferocity over the weekend, and although we will miss those who will be leaving us after this semester, at least they can be proud of how this young team performed. ",
+        description : "Located in Evansville, IN, this was the most important tournament of the season. Last year, the team didn't make such a great appearance, but that all changed this year. This year, the team went 3-4 on the weekend, and even gave teams like Notre Dame a run for their money. The team showed a lot of ferocity over the weekend, and although we will miss those who will be leaving us after this semester, at least they can be proud of how this young team performed. ",
         images : [
             "images/tournaments/Conference16.jpg",
             "images/tournaments/Conference1.jpg",
