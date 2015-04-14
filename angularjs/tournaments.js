@@ -1,5 +1,14 @@
 function TournamentsController($http,$scope,$route, $location) {
     $scope.events = [{
+        title: "Taylor",
+        dateStart: "Mar 21",
+        dateEnd : "Mar 21",
+        location: "Upland, IN",
+        description : "A quick bid, 1 day tournament at Taylor University, this was a warm up tournament for Nashville. Coming out hot and heavy, Ball U Men in help with some of the girls team and other friends swept the tournament 3-0, taking home the grand prize of: nothing! But this tournament was a blast for everyone, and the ice cream afterwards was the cherry on the pie!",
+        images : [
+            "images/tournaments/Taylor1.jpg"
+        ]
+    }, {
         title: "Music City",
         dateStart: "Mar 28",
         dateEnd : "Mar 29",

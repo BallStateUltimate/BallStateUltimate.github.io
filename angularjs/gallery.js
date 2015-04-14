@@ -223,7 +223,11 @@ function GalleryController($http,$scope,$route, $location){
         title: "Decatur Post-Victory",
         image: "images/tournaments/Decatur1.jpg",
         caption: "Decatur Post-Victory Chinese Buffet"
-    },{
+    }, {
+        title: "Taylor Post-Victory",
+        image: "images/tournaments/Taylor1.jpg",
+        caption: "Taylor Post-Victory Team Photo"
+    }, {
         title: "Poultry Days 2014",
         image: "images/tournaments/PDays2.jpg",
         caption: "Poultry Days 2014 Champs, Cock-Wringers"
