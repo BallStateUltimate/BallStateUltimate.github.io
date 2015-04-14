@@ -2,7 +2,7 @@ function GalleryController($http,$scope,$route, $location){
     $scope.photoGallery = [{
         title: "Evansville",
         image: "images/tournaments/Conference16.jpg",
-        caption: ""
+        caption: "Team Photo!"
     }, {
         title: "Evansville",
         image: "images/tournaments/Conference1.jpg",
@@ -66,6 +66,154 @@ function GalleryController($http,$scope,$route, $location){
     }, {
         title: "Evansville",
         image: "images/tournaments/Conference15.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference18.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference19.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference20.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference21.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference22.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference23.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference24.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference25.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference26.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference27.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference1.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference28.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference29.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference30.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference1.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference31.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference32.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference33.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference34.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference35.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference36.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference37.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference38.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference39.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference40.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference41.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference42.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference43.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference44.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference45.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference46.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference47.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference48.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference49.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference50.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference51.jpg",
+        caption: ""
+    },{
+        title: "Evansville",
+        image: "images/tournaments/Conference52.jpg",
         caption: ""
     }, {
         title: "McAllister's in Nashville",
