@@ -86,6 +86,10 @@ body {
     /*border effect*/
     padding: 2%;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 	overflow-x: hidden; //*For Opera */ 
 	-webkit-box-shadow:
 		inset #c9122d 0 0 0 1px,
