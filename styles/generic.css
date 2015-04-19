@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,300italic,400italic,700italic);
 
+* {
+    transition-duration: 2s;
+}
+
 
 *:not(strong){
     font-family: 'Lato' ,sans-serif, serif;
@@ -27,10 +31,13 @@ ul {
 
 p, * p{
     text-indent: 5%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 strong {
-    font-family: 'Alegreya Sans SC' ,sans-serif, serif;
+    font-family: 'Lato' ,sans-serif, serif;
     font-weight: 700, bold;
     position: relative;
     -webkit-font-smoothing: antialiased;
@@ -53,6 +60,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+@media screen and (max-width: 475px){
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
 body {
     background-color: #E8E8E8;
     margin: 0 0 0 0;
@@ -67,12 +80,13 @@ body {
 }
 
 #pageHeader #upperContent {
+    display: table-cell;
     width: 100%;
     margin: 0;
     /*border effect*/
     padding: 2%;
     box-sizing: border-box;
-	overflow-x: hidden; //For Opera 
+	overflow-x: hidden; //*For Opera */ 
 	-webkit-box-shadow:
 		inset #c9122d 0 0 0 1px,
         inset #c5283f 0 0 0 5px,
@@ -102,7 +116,12 @@ body {
 		inset #aea0a3 0 0 0 23px;
 }
 
+#upperContent * {
+    vertical-align: middle;
+}
+
 #upperContent div {
+    display: table-cell;
     padding: 1%;
     padding-bottom: 3%;
 }
@@ -110,17 +129,39 @@ body {
 #bannerImage {
     display: inline-block;
     width:67%;
-    margin-left:auto;
+    margin-left:2%;
     margin-right: 1%;
-    vertical-align: top;
 }
 
 #logo {
     width: 23%;
     cursor: pointer;
-    margin-right: 3%;
-    vertical-align: top;
+    margin-left: 1%;
 }
+
+@media screen and (max-width: 475px){
+    #upperContent div {
+        padding: 0 4% 4% 4%;
+        vertical-align: none;
+    }
+    
+    #bannerImage, #logo {
+        display: block;
+        margin: 0 auto;
+        vertical-align: none;
+    }
+    
+    #bannerImage {
+        width: 100%;
+    }
+    
+    #logo {
+        width: 30%;
+        min-width: 100px;
+    }
+}
+
+/* --------- NAVBAR ----------  */
 
 #logo:active {
     background-color: rgba(0,0,0, 0.25);
@@ -138,18 +179,19 @@ body {
 
 #navBar ul {
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0;
     padding: 0.5% 0 0.5% 0 ;
     list-style: none;
 }
 
 #navBar ul li{
     cursor: pointer;
+    box-sizing: border-box;
     margin-left: auto;
     left: 0;
     margin-right: auto;
-    width:15%;
-    min-width: 140px;
+    width:16%;
+    min-width: 100px;
     display: inline-block;
     border: solid 2px #CB0825;
 }
@@ -163,7 +205,7 @@ body {
 }
 
 #navBar ul li a{
-    font-size: 1.5vw;
+    font-size: 1em;
     color: #CB0825;
     display: block;
     margin: 0;
@@ -176,6 +218,41 @@ body {
 #navBar .first {
     margin-left: 0px;
 }
+
+@media screen and (max-width:1200px){
+    #navBar ul li a{
+        font-size:.8em;
+    }
+}
+
+@media screen and (max-width:950px){
+    #navBar ul li {
+        width: 32%;
+        margin: 2.5px 0;
+    }
+    
+    #navBar ul li a{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:625px){
+    #navBar ul li a {
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width:475px){
+    #navBar ul li {
+        width: 49%;
+    }
+    
+    #navBar ul li a{
+        font-size: 1em;
+    }
+}
+
+/* ---------- END NAVBAR ------------- */
 
 #leftRail, #rightRail {
     background-color: #D7D7D7;
@@ -219,6 +296,17 @@ ng-view {
     display: block;
 }
 
+.recent_activity h3 {
+    text-align: center;
+}
+
+@media screen and (max-width:775px){
+    video {
+        max-width: 350px;
+        max-height: 530px;
+    }
+}
+
 .content *:not a{
     margin-left: 2%;
     margin-right: 2%;
@@ -233,7 +321,9 @@ ng-view {
     width: 30%;
 }
 
-footer{
+/* ----- FOOTER ------- */
+
+footer {
     border-top: solid .25em #CB0825;
     background-color: #ACACAC;
     height:auto;
@@ -269,6 +359,7 @@ footer{
     margin-left: auto;
     width: 40%;
     text-align: right;
+    text-indent: 0;
 }
 
 #email {
@@ -281,6 +372,30 @@ footer{
     text-decoration: none;
     color: #CB0825;
 }
+
+@media screen and (max-width:475px){
+    #connect {
+        display: block;
+        width: 100%;
+    }
+    #copyright, #email {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5px 0;
+        padding: 0;
+    }
+    
+    #email a {
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* -------- END FOOTER ---------- */
 
 /*temporary */
 #download {

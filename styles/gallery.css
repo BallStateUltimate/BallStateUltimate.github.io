@@ -2,12 +2,49 @@
     margin-top: 1em;
     margin-bottom: 1em;
     display: inline-block;
-    width: 31%;
+    width: 32%;
     height: 300px;
-    margin-left: 2%;
+    margin-left: 0.5%;
     margin-right: auto;
-    align-content: center;
     text-align: center;
+    align-content: center;
+}
+
+.image_set div {
+    display: table-cell;
+    height: inherit;
+    width: 0.1%;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+    right: auto;
+}
+
+@media screen and (max-width:1000px){
+    .image_set {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .image_set {
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width:600px){
+    .image_set {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .image_set {
+        width: 98%;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .image_set img {
@@ -15,11 +52,9 @@
     display: block;
     max-width: 100%;
     max-height: 90%;
-    margin-top: auto;
-    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .description{
@@ -31,24 +66,30 @@
 
 #imagePopup {
     position: fixed;
+    display: table-cell;
+    vertical-align: middle;
     width: 86%;
-    height: 86%;
-    background-color: #ACACAC;
+    height: 92%;
+    background-color: #4E5E6D;
     z-index: 1000;
     margin: 0 0 0 0;
-    top: 7%;
-    bottom: 7%;
-    left: 7%;
-    right:7%;
-    border-radius: 1%;
-    border: 5px solid #CB0825;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 15px;
+    border: 5px solid black;
 }
 
 #closeDIV {
-    display: block;
+    vertical-align: top;
     text-align: right;
-    margin-right: 4%;
+    margin-right: 1%;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #close {
@@ -58,6 +99,7 @@
     border-radius: 8%;
     font-weight: 700;
     padding: 2px;
+    transition-duration: 0.5s;
 }
 
 #close:hover {
@@ -69,10 +111,10 @@
 }
 
 #imagePane{
-    display: block;
-    height: 80%;
+    vertical-align: middle;
+    height: 88%;
     width: 100%;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 #imagePopup span {
@@ -82,23 +124,26 @@
 }
 
 #imagePopup img {
-    display: block;
-    max-width: 100%;
+    position: absolute;
+    max-width: 86%;
     max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
     text-align: center;
     vertical-align: middle;
 }
 
 #rightArrow, #leftArrow {
-    display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     cursor: pointer;
-    height: 96%;
-    width: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    height: 100%;
+    width: 3%;
+    min-width: 20px;
     font-weight: 900;
     text-align: center;
 }
@@ -131,3 +176,14 @@
     background: rgba(0, 0, 0, .5);
 }
 
+#rightArrow {
+    margin-right: 2%;
+    float: right;
+    transition-duration: 0.5s;
+}
+
+#leftArrow {
+    float: left;
+    margin-left: 2%;
+    transition-duration: 0.5s;
+}

@@ -20,7 +20,7 @@
             <source src="files/Conference1.mp4" type="video/mp4"/>
         </video>
         <br/>
-        <caption class="description">Peter Clark Chicken Wing</caption>
+        <p class="description">Peter Clark Chicken Wing</p>
     </center>
     <br/>
     <center>
@@ -28,7 +28,7 @@
             <source src="files/Conference2.mp4" type="video/mp4"/>
         </video>
         <br/>
-        <caption class="description">Ball U vs. USI</caption>
+        <p class="description">Ball U vs. USI</p>
     </center>
     <br/>
     <center>
@@ -36,13 +36,15 @@
             <source src="files/Conference3.mp4" type="video/mp4"/>
         </video>
         <br/>
-        <caption class="description">Ball U vs. USI + JC Foot Block</caption>
+        <p class="description">Ball U vs. USI + JC Foot Block</p>
     </center>
     <br/>
     
     <div class="image_set" ng-repeat="item in photoGallery">
-        <img src="{{item.image}}" alt="Loading..." title="{{item.title}}" ng-click="loadImage(photoGallery.indexOf(item))"/>
-        <caption class="description">{{item.caption}}</caption>
+        <div>
+            <img src="{{item.image}}" alt="Loading..." title="{{item.title}}" ng-click="loadImage(photoGallery.indexOf(item))"/>
+            <p class="description">{{item.caption}}</p>
+        </div>
     </div>
     
     <br/>
@@ -51,6 +53,6 @@
             <source src="files/Omaha.mp4" type="video/mp4"/>
         </video>
         <br/>
-        <caption class="description">Omaha!</caption>
+        <p class="description">Omaha!</p>
     </center>
 </div>
