@@ -38,44 +38,48 @@ p, * p{
 
 @media screen and (max-width:475px){
     p, * p{
-    text-indent: 5%;
-    max-width: none;
-    margin-left: auto;
-    margin-right: auto;
-}
+        text-indent: 5%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
 }
 
 @media screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
     p, * p{
-    text-indent: 5%;
-    max-width: none;
-    margin-left: auto;
-    margin-right: auto;
-}
+        text-indent: 5%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
 }
 
 @media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px){
     p, * p{
-    text-indent: 5%;
-    max-width: none;
-    margin-left: auto;
-    margin-right: auto;
-}
+        text-indent: 5%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em; 
+    }
 }
 
 @media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
     p, * p{
-    text-indent: 5%;
-    max-width: none;
-    margin-left: auto;
-    margin-right: auto;
-}
+        text-indent: 5%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
 }
 
 strong {
