@@ -544,6 +544,7 @@ footer {
         font-size: 1em;
         margin: 2.5px 0;
         padding: 0;
+        min-width: 100%;
     }
     
     #email a {
@@ -568,6 +569,7 @@ and (max-device-width : 667px) {
         font-size: 1em;
         margin: 2.5px 0;
         padding: 0;
+        min-width: 100%;
     }
     
     #email a {
@@ -592,6 +594,7 @@ and (max-device-width : 568px){
         font-size: 1em;
         margin: 2.5px 0;
         padding: 0;
+        min-width: 100%;
     }
     
     #email a {
@@ -616,6 +619,7 @@ and (max-device-width : 480px){
         font-size: 1em;
         margin: 2.5px 0;
         padding: 0;
+        min-width: 100%;
     }
     
     #email a {
