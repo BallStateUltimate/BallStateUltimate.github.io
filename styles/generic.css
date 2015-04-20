@@ -666,7 +666,7 @@ and (max-device-width : 480px){
         display: block;
         width: 100%;
         text-align: center;
-        font-size: 1em;
+        font-size: 4vw;
         margin: 2.5px 0;
         padding: 0;
         min-width: 100%;
