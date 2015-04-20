@@ -394,7 +394,7 @@ and (max-device-width : 480px){
     }
     
     #navBar ul li a{
-        font-size: 1em;
+        font-size: 3vw;
     }
 }
 
@@ -406,7 +406,7 @@ and (max-device-width : 667px) {
     }
     
     #navBar ul li a{
-        font-size: 1em;
+        font-size: 3vw;
     }
 }
 
@@ -418,7 +418,7 @@ and (max-device-width : 568px){
     }
     
     #navBar ul li a{
-        font-size: 1em;
+        font-size: 3vw;
     }
 }
 
@@ -430,7 +430,7 @@ and (max-device-width : 480px){
     }
     
     #navBar ul li a{
-        font-size: 1em;
+        font-size: 3vw;
     }
 }
 
