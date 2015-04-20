@@ -36,6 +36,48 @@ p, * p{
     margin-right: auto;
 }
 
+@media screen and (max-width:475px){
+    p, * p{
+    text-indent: 5%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    p, * p{
+    text-indent: 5%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    p, * p{
+    text-indent: 5%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    p, * p{
+    text-indent: 5%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
 strong {
     font-family: 'Lato' ,sans-serif, serif;
     font-weight: 700, bold;
