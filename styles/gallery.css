@@ -47,6 +47,39 @@
     }
 }
 
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    .image_set {
+        width: 98%;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    .image_set {
+        width: 98%;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+   .image_set {
+        width: 98%;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .image_set img {
     cursor: pointer;
     display: block;
