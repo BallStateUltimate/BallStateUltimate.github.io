@@ -60,7 +60,31 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width:475px){
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
     }
@@ -86,10 +110,6 @@ body {
     /*border effect*/
     padding: 2%;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 	overflow-x: hidden; //*For Opera */ 
 	-webkit-box-shadow:
 		inset #c9122d 0 0 0 1px,
@@ -144,6 +164,78 @@ body {
 }
 
 @media screen and (max-width: 475px){
+    #upperContent div {
+        padding: 0 4% 4% 4%;
+        vertical-align: none;
+    }
+    
+    #bannerImage, #logo {
+        display: block;
+        margin: 0 auto;
+        vertical-align: none;
+    }
+    
+    #bannerImage {
+        width: 100%;
+    }
+    
+    #logo {
+        width: 30%;
+        min-width: 100px;
+    }
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #upperContent div {
+        padding: 0 4% 4% 4%;
+        vertical-align: none;
+    }
+    
+    #bannerImage, #logo {
+        display: block;
+        margin: 0 auto;
+        vertical-align: none;
+    }
+    
+    #bannerImage {
+        width: 100%;
+    }
+    
+    #logo {
+        width: 30%;
+        min-width: 100px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    #upperContent div {
+        padding: 0 4% 4% 4%;
+        vertical-align: none;
+    }
+    
+    #bannerImage, #logo {
+        display: block;
+        margin: 0 auto;
+        vertical-align: none;
+    }
+    
+    #bannerImage {
+        width: 100%;
+    }
+    
+    #logo {
+        width: 30%;
+        min-width: 100px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
     #upperContent div {
         padding: 0 4% 4% 4%;
         vertical-align: none;
@@ -256,6 +348,42 @@ body {
     }
 }
 
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #navBar ul li {
+        width: 49%;
+    }
+    
+    #navBar ul li a{
+        font-size: 1em;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    #navBar ul li {
+        width: 49%;
+    }
+    
+    #navBar ul li a{
+        font-size: 1em;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    #navBar ul li {
+        width: 49%;
+    }
+    
+    #navBar ul li a{
+        font-size: 1em;
+    }
+}
+
 /* ---------- END NAVBAR ------------- */
 
 #leftRail, #rightRail {
@@ -305,6 +433,33 @@ ng-view {
 }
 
 @media screen and (max-width:775px){
+    video {
+        max-width: 350px;
+        max-height: 530px;
+    }
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    video {
+        max-width: 350px;
+        max-height: 530px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    video {
+        max-width: 350px;
+        max-height: 530px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
     video {
         max-width: 350px;
         max-height: 530px;
@@ -378,6 +533,78 @@ footer {
 }
 
 @media screen and (max-width:475px){
+    #connect {
+        display: block;
+        width: 100%;
+    }
+    #copyright, #email {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5px 0;
+        padding: 0;
+    }
+    
+    #email a {
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #connect {
+        display: block;
+        width: 100%;
+    }
+    #copyright, #email {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5px 0;
+        padding: 0;
+    }
+    
+    #email a {
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    #connect {
+        display: block;
+        width: 100%;
+    }
+    #copyright, #email {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5px 0;
+        padding: 0;
+    }
+    
+    #email a {
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
     #connect {
         display: block;
         width: 100%;
