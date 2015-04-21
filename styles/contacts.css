@@ -40,6 +40,44 @@
     max-height: 250px;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+    .contacts{
+        margin: 2px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contact {
+        display: block;
+        margin: auto auto 10px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contactInfo, .contact span {
+        text-align: center;
+        text-indent: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto 5px auto;
+        padding: 0 auto 5px auto;
+    }
+    
+    .contactInfo h3, .contactInfo h4{
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        display: block;
+        text-indent: 0;
+    }
+    
+    .contactImage img {
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width:625px){
     .contacts{
         margin: 2px auto;

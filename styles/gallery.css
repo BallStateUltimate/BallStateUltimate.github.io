@@ -26,6 +26,17 @@
     }
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .image_set {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width:800px){
     .image_set {
         width: 48%; 
