@@ -326,7 +326,7 @@ and (max-device-width : 480px){
 #navBar ul {
     width: 100%;
     margin: 0;
-    padding: 0.5% 0 0.5% 0 ;
+    padding: 0.5% 0;
     list-style: none;
 }
 
@@ -359,6 +359,7 @@ and (max-device-width : 480px){
     text-decoration: none;
     font-weight: bold;
     moz-font-weight: bold;
+    height: 100%;
 }
 
 #navBar .first {
@@ -390,13 +391,13 @@ and (max-device-width : 480px){
 
 @media screen and (max-width:475px){
     #navBar ul li {
-        padding: 1.5em .5em;
+        height: 12vw;
         margin: 2.5px auto;
         width: 49%;
     }
     
     #navBar ul li a{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
@@ -404,13 +405,13 @@ and (max-device-width : 480px){
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
     #navBar ul li {
-        padding: 1.5em .5em;
+        height: 12vw;
         margin: 2.5px auto;
         width: 49%;
     }
     
     #navBar ul li a{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
@@ -418,13 +419,13 @@ and (max-device-width : 667px) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px){
     #navBar ul li {
-        padding: 1.5em .5em;
+        height: 12vw;
         margin: 2.5px auto;
         width: 49%;
     }
     
     #navBar ul li a{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
@@ -432,13 +433,13 @@ and (max-device-width : 568px){
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
     #navBar ul li {
-        padding: 1.5em .5em;
+        height: 12vw;
         margin: 2.5px auto;
         width: 49%;
     }
     
     #navBar ul li a{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
 
