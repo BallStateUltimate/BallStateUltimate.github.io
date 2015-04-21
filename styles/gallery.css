@@ -41,7 +41,7 @@
 @media screen and (max-width:650px){
     .image_set {
         width: 98%;
-        height: 180px;
+        height: 400px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -53,7 +53,7 @@ and (max-device-width : 667px) {
     .image_set {
         max-height: none;
         width: 100%;
-        height: 300px;
+        height: 500px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -65,7 +65,7 @@ and (max-device-width : 568px){
     .image_set {
         max-height: none;
         width: 100%;
-        height: 300px;
+        height: 500px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -75,9 +75,9 @@ and (max-device-width : 568px){
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
    .image_set {
-       max-height: none;
+        max-height: none;
         width: 100%;
-        height: 300px;
+        height: 500px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -87,7 +87,7 @@ and (max-device-width : 480px){
     cursor: pointer;
     display: block;
     max-width: 100%;
-    max-height: 90%;
+    max-height: 100%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
@@ -96,7 +96,7 @@ and (max-device-width : 480px){
 .description{
     display: block;
     text-align: center;
-    font-size: .75em;
+    font-size: 2vw;
     vertical-align: bottom;
 }
 
@@ -104,8 +104,8 @@ and (max-device-width : 480px){
     position: fixed;
     display: table-cell;
     vertical-align: middle;
-    width: 86%;
-    height: 92%;
+    width: 90%;
+    height: 94%;
     background-color: #4E5E6D;
     z-index: 1000;
     margin: 0 0 0 0;
@@ -159,6 +159,58 @@ and (max-device-width : 480px){
     display: inline-block;
 }
 
+#imagePopup {
+    position: fixed;
+    display: table-cell;
+    vertical-align: middle;
+    width: 86%;
+    height: 86%;
+    background-color: #4E5E6D;
+    z-index: 1000;
+    margin: 0 0 0 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+#closeDIV {
+    vertical-align: top;
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#close {
+    background-color: rgba(255,0,0, 0.75);
+    cursor: pointer;
+    display: inline;
+    border-radius: 8%;
+    font-weight: 700;
+    padding: 2px;
+}
+
+#close:hover {
+    background-color: rgba(255,0,0, 1.0) ;
+}
+
+#close:active {
+    background-color: rgba(255,0,0, 0.5);
+}
+
+#imagePane{
+    vertical-align: middle;
+    height: 88%;
+    width: 100%;
+    margin: auto auto auto auto;
+}
+
 #imagePopup img {
     position: absolute;
     max-width: 86%;
@@ -192,34 +244,24 @@ and (max-device-width : 480px){
     transform: translateY(-50%);
 }
 
-#rightArrow {
-    margin-right: 2%;
-}
-
-#leftArrow {
-    margin-left: 4%;
-}
-
 #leftArrow:hover , #rightArrow:hover {
-    background: rgb(255, 255, 255); 
+    background: rgb(255, 255, 255);
     /* Fall-back for browsers that don't support rgba */
     background: rgba(255, 255, 255, .5);
 }
 
-#leftArrow:active, #rightArrow:active {
-    background: rgb(0, 0, 0); 
+#leftArrow:active , #rightArrow:active {
+    background: rgb(0, 0, 0);
     /* Fall-back for browsers that don't support rgba */
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .4);
 }
 
 #rightArrow {
     margin-right: 2%;
     float: right;
-    transition-duration: 0.5s;
 }
 
 #leftArrow {
     float: left;
     margin-left: 2%;
-    transition-duration: 0.5s;
 }
