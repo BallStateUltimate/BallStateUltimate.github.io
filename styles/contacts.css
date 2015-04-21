@@ -34,15 +34,19 @@
 }
 
 .contactImage img {
-    width: 40%;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
-    max-height: 200px;
+    max-height: 250px;
 }
 
 @media screen and (max-width:625px){
-    .contacts, .contact{
+    .contacts{
         margin: 2px auto;
+    }
+    
+    .contact {
+        margin: auto auto 10px auto;
     }
     
     .contactInfo, .contact span {
@@ -50,15 +54,124 @@
         text-indent: 0;
         display: block;
         width: 100%;
-        margin: 0 auto;
-        padding: 0;
+        margin: 0 auto 5px auto;
+        padding: 0 auto 5px auto;
     }
     
     .contactInfo h3, .contactInfo h4{
         margin-left: 0;
+        margin-bottom: 0;
         padding: 0;
         display: block;
         text-indent: 0;
+    }
+}
+
+@media screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    .contacts{
+        margin: 2px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contact {
+        display: block;
+        margin: auto auto 10px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contactInfo, .contact span {
+        text-align: center;
+        text-indent: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto 5px auto;
+        padding: 0 auto 5px auto;
+    }
+    
+    .contactInfo h3, .contactInfo h4{
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        display: block;
+        text-indent: 0;
+    }
+    
+    .contactImage img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    .contacts{
+        margin: 2px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contact {
+        display: block;
+        margin: auto auto 10px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contactInfo, .contact span {
+        text-align: center;
+        text-indent: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto 5px auto;
+        padding: 0 auto 5px auto;
+    }
+    
+    .contactInfo h3, .contactInfo h4{
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        display: block;
+        text-indent: 0;
+    }
+    
+    .contactImage img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    .contacts{
+        margin: 2px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contact {
+        display: block;
+        margin: auto auto 10px auto;
+        padding-bottom: 10px;
+    }
+    
+    .contactInfo, .contact span {
+        text-align: center;
+        text-indent: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto 5px auto;
+        padding: 0 auto 5px auto;
+    }
+    
+    .contactInfo h3, .contactInfo h4{
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+        display: block;
+        text-indent: 0;
+    }
+    
+    .contactImage img {
+        margin-bottom: 20px;
     }
 }
 
