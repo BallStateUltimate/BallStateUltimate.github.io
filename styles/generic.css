@@ -390,6 +390,7 @@ and (max-device-width : 480px){
 
 @media screen and (max-width:475px){
     #navBar ul li {
+        margin: 2.5px auto;
         width: 49%;
     }
     
@@ -402,6 +403,7 @@ and (max-device-width : 480px){
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
     #navBar ul li {
+        margin: 2.5px auto;
         width: 49%;
     }
     
@@ -414,6 +416,7 @@ and (max-device-width : 667px) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px){
     #navBar ul li {
+        margin: 2.5px auto;
         width: 49%;
     }
     
@@ -426,6 +429,7 @@ and (max-device-width : 568px){
 and (min-device-width : 320px) 
 and (max-device-width : 480px){
     #navBar ul li {
+        margin: 2.5px auto;
         width: 49%;
     }
     
