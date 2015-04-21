@@ -98,6 +98,7 @@ and (max-device-width : 480px){
     text-align: center;
     font-size: 2vw;
     vertical-align: bottom;
+    text-indent: 0;
 }
 
 #imagePopup {
