@@ -28,6 +28,15 @@
         <script type="text/javascript" src="angularjs/practice.js"></script>
         <script type="text/javascript" src="angularjs/gallery.js"></script>
         <script type="text/javascript" src="angularjs/main.js"></script>
+        <!-- FaceBook Script -->
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     </head>
     <body>
         <header ng-controller="NavController">
@@ -59,8 +68,8 @@
     <footer>
         <p id="email">Questions? Email us at <a href="mailto:ULTIMATE@bsu.edu?Subject=I'm%20interested%20in%20Ball%20State%20Ultimate!" target="_top">ULTIMATE@bsu.edu</a></p>
         <span id="connect">
-            <!--<a href="#" target="_blank"><img alt="FaceBook" src="images/socialMedia/facebook-icon.png"/></a>-->
-            <a href="https://twitter.com/bsu_ultimate" target="_blank"><img alt="Twitter" src="images/socialMedia/Twitter_logo.png"/></a>
+            <a href="https://www.facebook.com/BSUMensUltimate" target="_blank"><img alt="FaceBook" src="images/socialMedia/facebook-icon.png"/></a>
+            <a href="https://twitter.com/BSUMensUltimate" target="_blank"><img alt="Twitter" src="images/socialMedia/Twitter_logo.png"/></a>
         </span>
         <p id="copyright">Content and Design Copyright Brandon Groff 2015 &#169;</p>
     </footer>
