@@ -20,7 +20,7 @@ function TournamentsController($http, $scope, $route, $location) {
         dateStart: "Sept 27",
         dateEnd: "Sept 27",
         location: "Ball State University, IN",
-        description: "BSU's own tournament, a one-day smedium sized tournament featuring a number of teams ranging in skills, giving teams a chance to both test their skills and learn from better teams.",
+        description: "BSU's own tournament, a one-day medium sized tournament featuring a number of teams ranging in skills, giving teams a chance to both test their skills and learn from better teams.",
         images: [
         ]
     }];
