@@ -4,7 +4,7 @@ function TournamentsController($http, $scope, $route, $location) {
         dateStart: "Sept 12",
         dateEnd: "Sept 13",
         location: "Indiana Wesleyan University, IN",
-        description: "The first scheduled tournament of the year, this medium sized tournament will give rookies their first chance to strut their stuff. But don't get discouraged, because there are plenty of tournaments remaining and time to improve.",
+        description: "The first scheduled tournament of the year, this medium sized tournament gave rookies a ton of playing time and time to learn the game. ",
         images: [
         ]
     }, {
